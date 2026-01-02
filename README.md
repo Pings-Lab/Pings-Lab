@@ -1,73 +1,41 @@
-# Welcome to your Lovable project
+# Think before you do it, do after you think it.
 
-## Project info
+<p align="left">
+  <img src="https://img.shields.io/badge/MSME-Registered-blue?style=flat-square" alt="MSME Registered">
+  <img src="https://img.shields.io/badge/Focus-Open%20Source-green?style=flat-square" alt="Open Source Focus">
+  <img src="https://img.shields.io/badge/Sector-Custom%20Software-orange?style=flat-square" alt="IT Solutions">
+</p>
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+---
 
-## How can I edit this code?
+### 🧪 About Ping’s Lab
+**Ping’s Lab** is an agile technology studio dedicated to engineering high-performance digital solutions and scalable software architecture. Specializing in custom software development, we help businesses transform complex ideas into robust, production-ready applications using modern stacks.
 
-There are several ways of editing your application.
+At the intersection of logic and design, we operate as a transparent, innovation-first environment. We don't just write code; we build the digital infrastructure for the future of work.
 
-**Use Lovable**
+### 🌐 Open Source Mission
+We are deeply committed to the **Open Source ecosystem**. We believe in the power of shared knowledge and actively contribute to tools that simplify web development and career tech. 
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+- 🌱 **Current Focus:** AI-driven career tools and ATS-optimized logic.
+- 🔭 **Flagship Project:** Next-generation Resume Builder API.
+- ⚡ **Philosophy:** Methodical strategy followed by precise execution.
 
-Changes made via Lovable will be committed automatically to this repo.
+### 🛠 Tech Stack & Tools
+| Category | Technologies |
+| :--- | :--- |
+| **Backend** | Python (Flask), PostgreSQL, Node.js |
+| **Frontend** | React, Tailwind CSS, TypeScript |
+| **DevOps** | Docker, Nginx, GitHub Actions |
+| **Automation** | n8n, Custom Python Scripts |
 
-**Use your preferred IDE**
+### 📬 Connect With Us
+- **Website:** [Coming Soon]
+- **LinkedIn:** [Ping's Lab Company Page](YOUR_LINKEDIN_URL)
+- **Email:** `pingslab@gmail.com`
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+---
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+<p align="center">
+  <i>An MSME (Micro Enterprise) Registered Lab.</i><br>
+  <b>"Think before you do it, do after you think it."</b>
+</p>
