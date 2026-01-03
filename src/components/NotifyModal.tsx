@@ -37,32 +37,35 @@ export function NotifyModal({ isOpen, onClose, productName }: NotifyModalProps) 
 
   return (
     <AnimatePresence>
-      {isOpen && (
-        <>
-          {/* Backdrop */}
-          <motion.div
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            exit={{ opacity: 0 }}
-            onClick={onClose}
-            className="fixed inset-0 bg-background/80 backdrop-blur-sm z-50"
-          />
+  {isOpen && (
+    <div className="fixed inset-0 z-50 flex items-center justify-center p-4">
+      {/* 1. Backdrop */}
+      <motion.div
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        exit={{ opacity: 0 }}
+        onClick={onClose}
+        className="fixed inset-0 bg-background/80 backdrop-blur-sm"
+      />
+      
+      {/* 2. Modal Container */}
+      <motion.div
+        initial={{ opacity: 0, scale: 0.95, y: 20 }}
+        animate={{ opacity: 1, scale: 1, y: 0 }}
+        exit={{ opacity: 0, scale: 0.95, y: 20 }}
+        // Remove the -translate-x-1/2 classes from here
+        className="relative z-50 w-full max-w-md pointer-events-none"
+      >
+        {/* 3. The Actual Card */}
+        <div className="bg-card border border-border rounded-2xl shadow-card p-6 pointer-events-auto">
+          {/* ... Close Button and Form Content Stay the Same ... */}
           
-          {/* Modal */}
-          <motion.div
-            initial={{ opacity: 0, scale: 0.95, y: 20 }}
-            animate={{ opacity: 1, scale: 1, y: 0 }}
-            exit={{ opacity: 0, scale: 0.95, y: 20 }}
-            className="fixed left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 z-50 w-full max-w-md"
+          <button
+            onClick={onClose}
+            className="absolute top-4 right-4 p-2 rounded-lg hover:bg-secondary transition-colors"
           >
-            <div className="bg-card border border-border rounded-2xl shadow-card p-6 mx-4">
-              {/* Close Button */}
-              <button
-                onClick={onClose}
-                className="absolute top-4 right-4 p-2 rounded-lg hover:bg-secondary transition-colors"
-              >
-                <X className="h-4 w-4" />
-              </button>
+            <X className="h-4 w-4" />
+          </button>
 
               {/* Content */}
               <div className="text-center mb-6">
@@ -106,7 +109,7 @@ export function NotifyModal({ isOpen, onClose, productName }: NotifyModalProps) 
               </p>
             </div>
           </motion.div>
-        </>
+        </div>
       )}
     </AnimatePresence>
   );
